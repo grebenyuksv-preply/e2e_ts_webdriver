@@ -1,0 +1,52 @@
+{
+  "compilerOptions":
+  {
+    "declaration": false,
+    "target": "es6",
+    "importHelpers": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "build",
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./react",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "custom_typings"
+    ],
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "strictFunctionTypes": false,
+    "lib": [
+      "es2017.object",
+      "es6",
+      "es2015",
+      "dom",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/*.ts*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "typedocOptions":
+  {
+    "out": "jsdocs",
+    "target": "es6",
+    "mode": "modules",
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "listInvalidSymbolLinks": true
+  }
+}
