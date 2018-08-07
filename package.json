@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:watchAll": "jest --watchAll"
+    "test:watch:docker": "docker-compose run --rm main npm run test:watch",
+    "test:watchAll": "jest --watchAll",
+    "test:watchAll:docker": "docker-compose run --rm main npm run test:watchAll"
   },
   "author": "",
   "license": "ISC",

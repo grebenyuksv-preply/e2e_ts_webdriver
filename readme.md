@@ -2,5 +2,5 @@
 
 ```
 npm i
-npm run test:watchAll
+npm run test:watchAll:docker
 ```
